@@ -1,0 +1,32 @@
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("Roboto-Regular.ttf");
+}
+body {
+    font-family: "Roboto";
+}
+p {
+    margin: 0px;
+}
+h1, h2, h3 {
+    margin: 0px;
+}
+.punkte {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.t {
+    width: 60px;
+}
+.stats {
+    margin-top: 50px;
+}

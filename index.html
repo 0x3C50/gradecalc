@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notenrechner</title>
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Notenrechner</h1>
+            <p>Eine webapp, um Ihre Klassenarbeitsnote anhand der Punktzahl auszurechnen.</p>
+            <div class="punkte">
+                <p>Ich habe</p>
+                <input class="t" id="pkt" type="number" min="0" value="0">
+                <p>Punkte von</p>
+                <input class="t" id="pktTotal" type="number" min="1" value="1">
+            </div>
+            <div class="stats">
+                <p id="frac"></p>
+                <p id="grade"></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
